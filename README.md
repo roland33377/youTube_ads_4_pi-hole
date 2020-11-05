@@ -69,7 +69,7 @@ sudo crontab -e
 Where the script location is /home/pi/youTube_ads_4_pi-hole/youtube.sh </br>
 more information about crontab https://crontab.guru </br>
 
-# if you want to delete all blacklist from your database in case of issues 
+ if you want to delete all blacklist from your database in case of issues 
 ```
 /usr/bin/sqlite3 /etc/pihole/gravity.db "delete from domainlist where domain like '%googlevideo.com%' "
 ```
